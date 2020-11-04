@@ -37,7 +37,11 @@ const SearchScreen = (props) => {
   }, [value]);
 
   const handleOnChangeText = (text) => {
-    search({ beer_name: text });
+    if (text) {
+      search({ beer_name: text });
+    } else {
+      search();
+    }
     onChangeText(text);
   }
 
