@@ -1,0 +1,12 @@
+{
+ "expo": {
+  "name": "Mobile Beer",
+  "icon": "./assets/icon.png",
+  "version": "1.0.0",
+  "slug": "mobile-beer",
+  "android": {
+    "package": "com.mjmccull.mobile_beer",
+    "versionCode": 1
+  }
+ }
+}
