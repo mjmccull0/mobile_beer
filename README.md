@@ -27,4 +27,6 @@ Install on USB connected Android phone with
 
 ```adb install mobile_beer.apk```
 
-or using the expo snack, which can be found [here](https://snack.expo.io/@git/github.com/mjmccull0/mobile_beer@main)
+or using the expo snack, which can be found [here](https://snack.expo.io/@git/github.com/mjmccull0/mobile_beer@main).  Just follow the link, select "Android" and then click "Tap to Play".
+
+![image](https://user-images.githubusercontent.com/42848059/98276856-96ac5880-1f64-11eb-8bfa-1a6ac87f920d.png)
