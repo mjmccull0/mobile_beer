@@ -87,11 +87,6 @@ const Beer = (props) => {
   );
 };
 
-const BeerName = (props) => (
-  <Text style={styles.name}>{name}</Text>
-)
-
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,

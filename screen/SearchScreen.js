@@ -34,7 +34,7 @@ const SearchScreen = (props) => {
           }
         </View>
     )});
-  }, [value]);
+  }, [value,handleOnChangeText,navigation]);
 
   const handleOnChangeText = (text) => {
     if (text) {
