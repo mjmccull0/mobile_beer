@@ -55,7 +55,6 @@ const styles = StyleSheet.create({
     padding: 20,
     marginVertical: 8,
     marginHorizontal: 16,
-    height: 200,
     flex: 1,
     flexDirection: 'row',
     shadowColor: "#000",
@@ -81,8 +80,10 @@ const styles = StyleSheet.create({
     alignSelf: 'flex-end'
   },
   colorScale: {
-    flex: 1,
+    minHeight: 20,
     marginTop: 30,
+    marginBottom: 30,
+    paddingRight: 10
   },
   media: {
     height: '100%',

@@ -93,9 +93,9 @@ const BeerName = (props) => (
 
 
 const styles = StyleSheet.create({
-  scrollContainer: {
-  },
   container: {
+    flex: 1,
+    justifyContent: 'center',
     backgroundColor: '#ffffff',
     flex: 1,
     flexDirection: 'row',
@@ -133,9 +133,10 @@ const styles = StyleSheet.create({
     resizeMode: 'contain',
   },
   colorScale: {
+    minHeight: 20,
     flex: 1,
-    marginBottom: 20,
-    alignSelf: 'center'
+    marginTop: 30,
+    marginBottom: 30,
   },
   ingredientContainer: {
     flex: 1,

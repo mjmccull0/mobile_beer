@@ -86,19 +86,18 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'row',
-    alignItems: 'center',
-    height: '100%',
-    marginVertical: 20,
+    alignSelf: 'center',
+    width: '100%',
+    paddingRight: 20
   },
   color: {
-    height: 20,
-    width: 20,
-    margin: 2
+    paddingBottom: '10%',
+    width: '10%',
+    marginHorizontal: 1
   },
   selected: {
     borderWidth: 1,
-    height: 30,
-    width: 30
+    marginVertical: -10,
   }
 });
 
