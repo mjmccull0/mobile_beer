@@ -25,6 +25,6 @@ Explore expo managed React Native development.
 
 Install on USB connected Android phone with
 
-```adb install mobile_bear.apk```
+```adb install mobile_beer.apk```
 
 or using the expo snack, which can be found [here](https://snack.expo.io/@git/github.com/mjmccull0/mobile_beer@main)
